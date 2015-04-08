@@ -1,0 +1,12 @@
+---
+apache::vhosts:
+    project.diglin.local:
+        priority: "10"
+        vhost_name: "*"
+        port: "80"
+        log_level: 'warn'
+        docroot: "/var/www/project"
+        override: "all"
+        options: "all"
+        docroot_owner: "vagrant"
+        docroot_group: "vagrant"

@@ -1,0 +1,11 @@
+---
+mysql::params::root_password: ""
+mysql::server::package_name: 'mariadb-server'
+mysql::server::override_options: { 'mysqld': {'max_connections': 1024, 'key_buffer_size': 32} }
+
+mysql::client::package_name: 'mariadb-client'
+
+mysql::server::databases:
+    database_name:
+        ensure: 'present'
+        charset: 'utf8'

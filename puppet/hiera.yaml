@@ -1,0 +1,8 @@
+---
+:hierarchy:
+    - apache
+    - mysql
+:backends:
+    - yaml
+:yaml:
+    :datadir: '%{settings::manifestdir}/hieradata'
