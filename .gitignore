@@ -8,3 +8,4 @@
 #puppet/manifests/hieradata/mysql.yaml
 atlassian-ide-plugin.xml
 logs
+htdocs/magento/var/*
