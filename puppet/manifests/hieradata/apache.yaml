@@ -1,0 +1,12 @@
+---
+apache::vhosts:
+    dev.magento2.local:
+        priority: "10"
+        vhost_name: "*"
+        port: "80"
+        log_level: 'warn'
+        docroot: "/vagrant/htdocs/magento"
+        override: "all"
+        options: "all"
+        docroot_owner: "vagrant"
+        docroot_group: "vagrant"

@@ -1,10 +1,10 @@
 .idea
 .vagrant
 .DS_Store
-Vagrantfile
-htdocs/*
-databases/*
-puppet/manifests/hieradata/apache.yaml
-puppet/manifests/hieradata/mysql.yaml
+#Vagrantfile
+#htdocs/*
+#databases/*
+#puppet/manifests/hieradata/apache.yaml
+#puppet/manifests/hieradata/mysql.yaml
 atlassian-ide-plugin.xml
 logs
