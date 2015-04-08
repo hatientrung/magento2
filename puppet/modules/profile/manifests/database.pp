@@ -1,7 +1,8 @@
 class profile::database {
 
 	apt::source {"mariadb":
-	    location => "http://ftp.nluug.nl/db/mariadb/repo/5.5/ubuntu",
+#	    location => "http://ftp.nluug.nl/db/mariadb/repo/5.5/ubuntu",
+	    location => "http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu",
 	    repos => "main",
 	    release => $lsbdistcodename,
 	    key_server => 'keyserver.ubuntu.com',
